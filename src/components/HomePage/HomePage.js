@@ -40,8 +40,8 @@ function HomePage() {
                 <div className="p-4 bg-red-800">
                   {/* Nombre de la carrera con color negro */}
                   <h2 className="text-xl font-semibold text-white">{race.raceName}</h2>
-                  <p className="text-black">{race.Circuit.Location.locality}, {race.Circuit.Location.country}</p>
-                  <p className="text-black">{new Date(race.date).toLocaleDateString()}</p>
+                  <p className="font-semibold text-black">{race.Circuit.Location.locality}, {race.Circuit.Location.country}</p>
+                  <p className="font-semibold text-black">{new Date(race.date).toLocaleDateString()}</p>
                   <Link
                     to={`/race/${race.round}`}
                     className="text-blue-500 hover:underline mt-2 block"
