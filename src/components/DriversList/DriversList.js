@@ -38,12 +38,14 @@ function DriversList() {
               className="w-full h-64 object-contain" // Aquí se cambió de object-cover a object-contain
             />
             <div className="p-4">
-              <h2 className="text-xl font-semibold text-black">{driver.givenName} {driver.familyName}</h2>
+              <div className="flex items-center justify-between">
+                <h2 className="text-xl font-semibold text-black">{driver.givenName} {driver.familyName}</h2>
+                <img src={driver.flagUrl} alt={driver.nationality} className="w-10 h-auto mr-2" />
+              </div>
               <p className="text-gray-600">Número: {driver.permanentNumber}</p>
               <p className="text-gray-500">Nacionalidad: {driver.nationality}</p>
               <p className="text-gray-500">Fecha de nacimiento: {new Date(driver.dateOfBirth).toLocaleDateString()}</p>
               <div className="flex items-center mt-4">
-                <img src={driver.flagUrl} alt={driver.nationality} className="w-6 h-4 mr-2" />
                 <Link
                   to={`/driver/${driver.driverId}`}
                   className="text-blue-500 hover:underline"
@@ -60,3 +62,4 @@ function DriversList() {
 }
 
 export default DriversList;
+
