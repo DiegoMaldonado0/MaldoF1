@@ -37,11 +37,11 @@ function HomePage() {
                   alt={race.raceName}
                   className="w-full h-auto object-cover"
                 />
-                <div className="p-4">
+                <div className="p-4 bg-red-800">
                   {/* Nombre de la carrera con color negro */}
-                  <h2 className="text-xl font-semibold text-black">{race.raceName}</h2>
-                  <p className="text-gray-600">{race.Circuit.Location.locality}, {race.Circuit.Location.country}</p>
-                  <p className="text-gray-500">{new Date(race.date).toLocaleDateString()}</p>
+                  <h2 className="text-xl font-semibold text-white">{race.raceName}</h2>
+                  <p className="text-black">{race.Circuit.Location.locality}, {race.Circuit.Location.country}</p>
+                  <p className="text-black">{new Date(race.date).toLocaleDateString()}</p>
                   <Link
                     to={`/race/${race.round}`}
                     className="text-blue-500 hover:underline mt-2 block"
