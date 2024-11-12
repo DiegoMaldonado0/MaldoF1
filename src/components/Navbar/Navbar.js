@@ -22,8 +22,8 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="text-white hover:text-gray-300">Home</Link>
           <Link to="/drivers" className="text-white hover:text-gray-300">Drivers</Link>
-          <Link to="/driver-standings" className="text-white hover:text-gray-300">Driver Standings</Link>
           <Link to="/constructor-standings" className="text-white hover:text-gray-300">Constructor Standings</Link>
+          <Link to="/driver-standings" className="text-white hover:text-gray-300">Driver Standings</Link>
         </div>
 
         {/* Menú móvil */}
