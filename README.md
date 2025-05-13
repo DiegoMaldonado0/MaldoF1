@@ -4,7 +4,7 @@ Esta es una página web que hace uso de mi propia API para obtener información 
 
 ## Acceso a la página
 
-![image](https://github.com/user-attachments/assets/66e8388d-5d59-4e15-941b-82df4f7d96a2)
+![image](https://github.com/user-attachments/assets/2acad64e-4eaf-4873-bad7-b51c25ae51ca)
 
 https://maldof1.netlify.app/
 
