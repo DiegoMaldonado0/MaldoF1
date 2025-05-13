@@ -20,14 +20,14 @@ function HomePage() {
       {loading ? (
         <div className="w-full h-screen flex items-center justify-center">
           <img
-            src="/images/loading.png" // Cambia a la ruta de tu imagen de carga
+            src="/images/loading.png" 
             alt="Loading"
             className="animate-pulse" // Animación para parpadear
           />
         </div>
       ) : (
         <>
-          <h1 className="text-3xl font-bold text-center mb-8">Fórmula 1 - Temporada 2024</h1>
+          <h1 className="text-3xl font-bold text-center mb-8">F1 - 2025 Season</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {races.map((race) => (
               <div key={race.round} className="bg-white shadow-lg rounded-lg overflow-hidden">

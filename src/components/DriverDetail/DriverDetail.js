@@ -52,7 +52,7 @@ function DriverDetail() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-center mb-8">
-        {driver.givenName} {driver.familyName} - Detalles
+        {driver.givenName} {driver.familyName}
       </h1>
       <div className="bg-white shadow-lg rounded-lg p-4 flex flex-col sm:flex-row items-center sm:items-start">
         {/* Contenedor para la imagen y detalles */}
@@ -68,7 +68,7 @@ function DriverDetail() {
         <div className="flex-1 sm:ml-6 flex flex-col justify-center h-full">
           <div className="flex items-center">
             <h2 className="text-xl font-semibold text-black mr-2">{driver.givenName} {driver.familyName}</h2>
-            <img src={driver.flagUrl} alt={driver.nationality} className="w-8 h-auto" />
+            <img src={driver.flagUrl} alt={driver.nationality} className="w-8 h-auto border" />
           </div>
           <p className="text-gray-600">Número: {driver.permanentNumber}</p>
           <p className="text-gray-600">Nacionalidad: {driver.nationality}</p>
