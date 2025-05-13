@@ -12,27 +12,27 @@ https://maldof1.netlify.app/
 
 Aquí podrás ver un calendario de las carreras en la temporada actual
 
-![image](https://github.com/user-attachments/assets/2c140c5d-0ae4-46d9-80ad-7b2c5c67dd9a)
+![image](https://github.com/user-attachments/assets/e4a32435-2464-430e-b0d8-9ba6923abc6b)
 
 Puedes acceder a los detalles de cada fecha en la temporada
 
-![image](https://github.com/user-attachments/assets/806cf465-408e-4dd1-aed3-053d9d5ee641)
+![image](https://github.com/user-attachments/assets/7e1263d1-f1be-40db-b9bc-af8c55845516)
 
 Ver los resultados de cada carrera
 
-![image](https://github.com/user-attachments/assets/eed9c0ff-939d-4b43-9fcf-ee36aae7e212)
+![image](https://github.com/user-attachments/assets/95e6ddfe-dcf5-4f0e-91fe-c65b1adfedc8)
 
 Ver una lista de todos los pilotos que corren actualmente
 
-![image](https://github.com/user-attachments/assets/643d838d-b2e1-44c1-81c7-78fb4e164fad)
+![image](https://github.com/user-attachments/assets/ea876dc6-f9c3-4527-94b2-f7f018e88d28)
 
 Acceder a la información clave de cada piloto
 
-![image](https://github.com/user-attachments/assets/2f844b44-2493-4852-85eb-54048dab3367)
+![image](https://github.com/user-attachments/assets/626b6235-8012-42d2-ab56-6882b2a4a367)
 
 Ver cómo va el campeonato de pilotos
 
-![image](https://github.com/user-attachments/assets/4bd96fce-1f79-4d00-81f0-ef7daf2f4351)
+![image](https://github.com/user-attachments/assets/13eac4cf-ca78-494b-8379-3d548009ad35)
 
 Ver cómo va el campeonato de constructores
 
